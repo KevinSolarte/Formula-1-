@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de menú, logo y lista de interacción del menú */
+.menu {
+    background-color: #000000;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.menu .logo {
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.menu .logo img {
+    height: 90px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    
+    float: right;
+}
+
+.menu li {
+    float: left;
+    margin-right: 10px;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    
+    color: red;
+}
+
+/* Imagen de fondo y nombre del negocio */
+.imagen-fondo {
+    background: url('../../../assets/imagenes/f1fondo.jpg') center center no-repeat;
+    background-size: cover;
+    height: 735px; /* Ajusta la altura según tus necesidades */
+    position: relative;
+    text-align: center;
+    color: #fff; /* Color del texto, ajusta según tus necesidades */
+}
+
+.contenido-centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contenido-centrado h1 {
+    font-size: 5em;
+  margin-bottom: 10px;
+  text-shadow: 4px 4px 8px rgb(255, 0, 0);
+  color: #fff;
+  background: linear-gradient(90deg, #ff0000, #e22b2b);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.contenido-centrado p {
+    font-size: 2em; /* Ajusta el tamaño del texto según tus necesidades */
+    text-shadow: 4px 4px 8px rgb(255, 0, 17);
+}
+
+
+/* nosotros*/
+.quienes-somos {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .quienes-somos h1 {
+    margin-top: 100px;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ff0f0f;
+  }
+  
+  .quienes-somos p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    display: flex;
+}
+
+.icon {
+    margin-right: 30px;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.legal-links a {
+    color: #fff; 
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.legal-links a:hover {
+    color: rgb(255, 0, 0);;
+    
+}
+
+.icon-whatsapp > a > img{
+	width: 40px;
+	cursor: pointer;
+	position: fixed;
+	bottom: 130px;
+	right: 15px;
+}
+
